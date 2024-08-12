@@ -47,21 +47,23 @@ export default function Nav() {
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
         <div className="w-full flex lg:items-center lg:justify-start">
           <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary bg-secondary">
-            <AvatarImage src="./avatar.png" />
+            <AvatarImage src="./avatar_richard_2024.png" />
             <AvatarFallback className="w-24 h-24 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
-              AM
+              RA
             </AvatarFallback>
           </Avatar>
         </div>
         <h1 className="text-[42px] font-bold lg:text-start">
-          Hi, i&#39;m Alexander 👋
+          Richard Anchieta
         </h1>
         <h2 className="text-xl lg:text-start">
-          Front-End Developer, founder, and Quality nerd.
+          Arquiteto&nbsp;de&nbsp;Soluções e Desenvolvedor&nbsp;Sênior&nbsp;Full&nbsp;Stack.
         </h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-          I build seamless, user-first applications and web experiences that
-          bridge the gap between tech and people.
+          Apaixonado por inovação e tecnologia. Engajado na realização das ideias incríveis do empreendedorismo brasileiro.
+        </p>
+        <p className="text-lg lg:text-start text-muted-foreground">
+          Grande experiência em Tecnologia da Informação, arquitetando, desenvolvendo e implantando soluções robustas e pragmáticas.
         </p>
       </div>
       <nav className="lg:flex hidden">
@@ -84,7 +86,7 @@ export default function Nav() {
       <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
         <Button variant="outline" size="icon">
           <a
-            href="https://github.com/0xAlexander"
+            href="https://github.com/richardanchieta"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -93,7 +95,7 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
           <a
-            href="https://linkedin.com/in/0xAlexander"
+            href="https://linkedin.com/in/richardanchieta"
             target="_blank"
             rel="noopener noreferrer"
           >

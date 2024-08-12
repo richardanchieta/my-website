@@ -7,32 +7,32 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL("https://richardanchieta.com"),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "https://richardanchieta.com",
   },
-  title: "Alexander Meikopoulos",
+  title: "Richard Anchieta",
   description:
-    "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
+    "Richard Anchieta é Arquiteto de Software e Desenvolvedor Sênior Full Stack.",
   keywords:
-    "Alexander Meikopoulos, Front-end Engineer, Project Leader, Web Development, Web3, Decentralized Applications, Quality Assurance, Software Engineering, Blockchain, Cryptography",
+    "Richard Anchieta, Arquiteto de Soluções, Arquiteto de Software, Desenvolvedor Full Stack, Fullstack, Tech Lead, Web Development, Web3, Decentralized Applications, Quality Assurance, Software Engineering, Blockchain, Cryptography",
   openGraph: {
-    locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    locale: "pt_BR",
+    siteName: "Richard Anchieta",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Richard Anchieta",
     description:
-      "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
-    url: "https://meikopoulos.com",
+      "Richard Anchieta é Arquiteto de Software e Desenvolvedor Sênior Full Stack.",
+    url: "https://richardanchieta.com",
     images: [
       {
-        url: "./og-large-meik.jpg",
+        url: "./og-large-richardanchieta.jpg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alexander Meikopoulos",
+    title: "Richard Anchieta",
   },
 };
 

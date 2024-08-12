@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import {
   Card,
   CardContent,
@@ -6,82 +6,72 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { MoveRight } from "lucide-react";
+} from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+import { MoveRight } from 'lucide-react'
 
 const jobPositions = [
   {
-    timeline: "Feb 2022 — Present",
-    currentPosition: "Co-founder, Engineering & Development",
-    place: "Swoop Exchange",
-    previousPositions: [""],
+    timeline: 'Jul 2023 — o momento',
+    currentPosition: 'Arquiteto e Desenvolvedor',
+    place: `Fatora\u00A0Tecnologia`,
+    previousPositions: [''],
     description:
-      "Co-founded Swoop Exchange and led its Engineering & Development, guiding the project's technical execution and strategic vision. My role was hands-on, involving the development, design, and coding of essential components. Simultaneously, I focused on directing the project's technical path.",
+      "[em preparação]",
     skills: [
-      "Typescript",
-      "JavaScript",
-      "CSS",
-      "Tailwind CSS",
-      "MUI",
-      "HTML",
-      "Figma",
-      "UI/UX Design",
-      "Blockchain tech",
-      "Project Management",
-      "Planning",
-      "Leadership",
-      "Testing & QA",
+      'C#',
+      'GO',
+      'NextJS',
+      'Microsserviços',
+      'Mensageria',
+      'MS SQL',
+      'PostgreSQL'
     ],
   },
   {
-    timeline: "Aug 2016 — Present",
-    currentPosition: "Head of QA",
-    place: "Lykomitros Steel",
-    previousPositions: [
-      "Quality Assurance Engineer",
-      "QA/QC Administrative Support",
-    ],
+    timeline: 'Jan 2023 — Out 2023',
+    currentPosition: 'Arquiteto e Desenvolvedor',
+    place: 'Tera.Biz',
+    previousPositions: [],
     description:
-      "Lead the QA department, focusing on renewable energy components in steel manufacturing. Maintained industry and client standards, ensuring product integrity for renewable energy.",
-    skills: [
-      "ISO Compliance",
-      "Quality Assurance",
-      "Engineering Management",
-      "ISO 9001",
-      "ISO 45001",
-      "ISO 14001",
-      "Requirement Assessment",
-      "Auditing",
-    ],
+      "[em preparação]",
+    skills: [],
   },
   {
-    timeline: "Nov 2013 - May 2014",
-    currentPosition: "Digital Systems Admin - Internship",
-    place: "OTE Group (HTO)",
-    previousPositions: [""],
+    timeline: 'Fev 2021 — Dez 2022',
+    currentPosition: 'Arquiteto e Desenvolvedor',
+    place: 'Stemativa',
+    previousPositions: [],
     description:
-      "Gained valuable experience in digital systems administration, focusing on the management of contractors and capital.",
-    skills: [
-      "SQL",
-      "Administration",
-      "Problem-Solving",
-      "Computer Systems",
-      "System documentation",
-      "Networking",
-      "Cloud Computing",
-      "Automation",
-      "Scripting",
-    ],
+      "[em preparação]",
+    skills: [],
   },
-];
+  {
+    timeline: 'Ago 2016 — Jan 2021',
+    currentPosition: 'Arquiteto e Desenvolvedor',
+    place: 'Prius\u00A0Technology',
+    previousPositions: [],
+    description:
+      "[em preparação]",
+    skills: [],
+  },
+  {
+    timeline: 'Mar 2012 — Ago 2016',
+    currentPosition: 'Arquiteto e Desenvolvedor',
+    place: 'Prius\u00A0Technology',
+    previousPositions: [],
+    description:
+      "[em preparação]",
+    skills: [],
+  }
+]
 
 export default function ExpCard() {
   return (
     <section id="experience" className="scroll-mt-16 lg:mt-16">
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">
-          Experience
+          Experiência
         </h2>
       </div>
       <>
@@ -119,14 +109,14 @@ export default function ExpCard() {
       <div className="lg:px-12 mt-12">
         <a
           className="inline-flex items-center font-medium leading-tight text-foreground group"
-          href="/am-resume-2024.pdf"
+          href="/richardanchieta_cv_2024.pdf"
         >
           <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
-            View Full Resume
+            Currículo completo (PDF)
           </span>
           <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
         </a>
       </div>
     </section>
-  );
+  )
 }
