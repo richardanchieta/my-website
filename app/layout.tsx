@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   title: "Richard Anchieta",
   description:
-    "Richard Anchieta é Arquiteto de Software e Desenvolvedor Sênior Full Stack.",
+    "Richard Anchieta - Arquiteto de Soluções e Desenvolvedor Sênior Full Stack.",
   keywords:
     "Richard Anchieta, Arquiteto de Soluções, Arquiteto de Software, Desenvolvedor Full Stack, Fullstack, Tech Lead, Web Development, Web3, Decentralized Applications, Quality Assurance, Software Engineering, Blockchain, Cryptography",
   openGraph: {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "Richard Anchieta",
     description:
-      "Richard Anchieta é Arquiteto de Software e Desenvolvedor Sênior Full Stack.",
+      "Richard Anchieta - Arquiteto de Soluções e Desenvolvedor Sênior Full Stack.",
     url: "https://richardanchieta.com",
     images: [
       {
