@@ -9,6 +9,8 @@ import {
 } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { MoveRight } from 'lucide-react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload, faFile} from '@fortawesome/free-solid-svg-icons'
 
 const jobPositions = [
   {
@@ -34,7 +36,7 @@ const jobPositions = [
     place: 'Tera.Biz',
     previousPositions: [],
     description:
-      "[em preparação]",
+      "[conteúdo em preparação]",
     skills: [],
   },
   {
@@ -43,7 +45,7 @@ const jobPositions = [
     place: 'Stemativa',
     previousPositions: [],
     description:
-      "[em preparação]",
+      "[conteúdo em preparação]",
     skills: [],
   },
   {
@@ -52,7 +54,7 @@ const jobPositions = [
     place: 'Prius\u00A0Technology',
     previousPositions: [],
     description:
-      "[em preparação]",
+      "[conteúdo em preparação]",
     skills: [],
   },
   {
@@ -61,7 +63,7 @@ const jobPositions = [
     place: 'Prius\u00A0Technology',
     previousPositions: [],
     description:
-      "[em preparação]",
+      "[conteúdo em preparação]",
     skills: [],
   }
 ]
@@ -110,11 +112,15 @@ export default function ExpCard() {
         <a
           className="inline-flex items-center font-medium leading-tight text-foreground group"
           href="/richardanchieta_cv_2024.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
         >
+          <FontAwesomeIcon icon={faDownload} />
+          &nbsp;
           <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
-            Currículo completo (PDF)
+            Baixar currículo completo (PDF <FontAwesomeIcon icon={faFile} />)
           </span>
-          <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
+          
         </a>
       </div>
     </section>

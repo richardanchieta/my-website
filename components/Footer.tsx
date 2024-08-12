@@ -5,15 +5,19 @@ export default function Footer() {
     <section>
       <div className="flex flex-col gap-4 lg:px-6 mt-16">
         <p className="text-sm text-start text-muted-foreground">
-          Based on{" "}
+          Baseado no site de {" "}
           <a className="text-foreground" href="https://brittanychiang.com">
-            Brittany Chiang&#39;s website
+            Brittany Chiang
           </a>{" "}
-          (they awesome). Coded in{" "}
+            e na codificação de{" "}
+          <a className="text-foreground" href="https://meikopoulos.com/">
+            Alexander Meikopoulos
+          </a>{" "}. 
+            Escrito com{" "}
           <a className="text-foreground" href="https://code.visualstudio.com/">
             Visual Studio Code.
           </a>{" "}
-          Built with{" "}
+            Construído com{" "}
           <a className="text-foreground" href="https://nextjs.org/">
             Next.js
           </a>
@@ -21,11 +25,11 @@ export default function Footer() {
           <a className="text-foreground" href="https://tailwindcss.com/">
             Tailwind CSS
           </a>{" "}
-          and{" "}
+            e{" "}
           <a className="text-foreground" href="https://ui.shadcn.com/">
             Shadcn/ui
           </a>
-          , deployed with{" "}
+           , implantado na{" "}
           <a className="text-foreground" href="https://vercel.com/">
             Vercel
           </a>
