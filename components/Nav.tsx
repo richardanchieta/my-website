@@ -1,5 +1,6 @@
 'use client'
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Github, Linkedin } from 'lucide-react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -48,6 +49,14 @@ export default function Nav() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
+        <Image 
+          width={1080}
+          height={120}
+          src="/main_cover.jpg"
+          alt="Imagem de um jogo"
+          style={{objectFit: "cover", top: 0, left: 0}}
+          className="max-h-20 opacity-50 absolute lg:relative"
+        />
         <h1 className="text-[42px] font-bold lg:text-start">
           Richard Anchieta
         </h1>

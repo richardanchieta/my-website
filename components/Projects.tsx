@@ -47,7 +47,7 @@ const jobProjects = [
   {
     imagePath: '/project_forgery.jpg',
     title: 'Detecção de Manipulação em Fotografias (POC)',
-    description: 'Desafios: [conteúdo em preparação]',
+    description: 'Desafios: Pesquisa, análise e seleção de papers científicos, planejamento do estudo, implementação de algoritmos, refatoração de código de várias fontes para unificação em monorepo, engenharia de dados para trazer estudos em Jupyter Notebooks para código em produção com API em Flask, análise e comparação com métricas de avaliação (acurácia, precisão, revocaçãoe F1-Score), criação de FrontEnd amigável',
     skills: [
       'Python',
       'Flask',
@@ -64,7 +64,7 @@ const jobProjects = [
   {
     imagePath: '/project_assets.jpg',
     title: 'Digitalização de Ativos na Blockchain (MVP)',
-    description: 'Desafios: [conteúdo em preparação]',
+    description: 'Desafios: Desenho do negócio, desenho  da arquitetura distribuída e da arquitetura descentralizada, definição de smart contracts para o negócio, automação de carteiras digitais, sincronização entre a solução Web2 (tradicional, com e-commerce embarcado) e a solução Web3 (descentralizada), multiplicação do conhecimento com a equipe novata em Blockchain e Web3, gerenciamento e otimização de recursos para um MVP (produto mínimo viável).',
     skills: [
       'Web3',
       'Blockchain',
@@ -77,9 +77,9 @@ const jobProjects = [
       'NextJS',
       'GO',
       'Gateway de Pagamentos',
+      'Temporal.io',
       'Orquestrador',
-      'Workflow',
-      'Durable Execution',
+      'Workflow de Execução Durável',
     ],
     link: '/projects/assets',
   },
