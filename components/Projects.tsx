@@ -12,7 +12,7 @@ import { MoveUpRight } from 'lucide-react'
 
 const jobProjects = [
   {
-    imagePath: '/project_antifraud.png',
+    imagePath: '/project_antifraud.jpg',
     title: 'Plataforma Antifraude para Mercado Financeiro',
     description:
       'Desafios: Resiliência, segurança, conformidade com instituições bancárias, regras de distribuição para análises autônomas e análises com interação humana (distribuição para mais de 700 analistas), aprendizagem de máquina com visão computacional.',
@@ -29,7 +29,7 @@ const jobProjects = [
     link: '/projects/antifraud',
   },
   {
-    imagePath: '/project_settlement.png',
+    imagePath: '/project_settlement.jpg',
     title: 'Sistema de Integração e Conciliação de Liquidação Cambial',
     description:
       'Desafios: Engenharia reversa de código legado em Delphi, orquestração de serviços, observabilidade, automação de processos e conversão de regras em linguagem descritiva e não estruturada (arquivos PDF) para linguagem estruturada legível por humanos e máquinas.',
@@ -45,7 +45,7 @@ const jobProjects = [
     link: '/projects/settlement',
   },
   {
-    imagePath: '/project_forgery.png',
+    imagePath: '/project_forgery.jpg',
     title: 'Detecção de Manipulação em Fotografias (POC)',
     description: 'Desafios: [conteúdo em preparação]',
     skills: [
@@ -62,7 +62,7 @@ const jobProjects = [
     link: '/projects/forgery',
   },
   {
-    imagePath: '/project_assets.png',
+    imagePath: '/project_assets.jpg',
     title: 'Digitalização de Ativos na Blockchain (MVP)',
     description: 'Desafios: [conteúdo em preparação]',
     skills: [
@@ -84,7 +84,7 @@ const jobProjects = [
     link: '/projects/assets',
   },
   {
-    imagePath: '/project_game.png',
+    imagePath: '/project_game.jpg',
     title: 'Plataforma de Jogos Educativos',
     description:
       'Desafios: Sincronização do jogo entre os múltiplos jogadores em tempo real; embarcação no Raspberry PI; compilação multiarquitetura (amd64 e arm64); projeto eimplantação dos detalhes ligados ao hardware (hub de rádio frequência, interpretadorde sinais RF, WiFi Host Spot personalizado); empacotamento e assinatura digital dosgames para instalação e distribuição',
@@ -105,7 +105,7 @@ const jobProjects = [
     link: '/projects/game',
   },
   {
-    imagePath: '/project_football.png',
+    imagePath: '/project_football.jpg',
     title: 'Aplicativo e Rede Social de Torcedores de Futebol',
     description:
       'Desafios: Placar em tempo real, integração com plataforma de captura dos jogos televisionados, arquitetura e implementação da rede social com agregações e cálculos na inserção para priorizar performance na leitura, build, implantação e atualização nas lojas de aplicativos (Apple e Google), modelagem “NoSQL” no REDIS.',
@@ -127,7 +127,7 @@ const jobProjects = [
     link: '/projects/football',
   },
   {
-    imagePath: '/project_muts.png',
+    imagePath: '/project_muts.jpg',
     title:
       'Plataforma para Gestão de Moradia Urbana (Fundação Banco do Brasil)',
     description:
@@ -136,7 +136,7 @@ const jobProjects = [
     link: '/projects/muts',
   },
   {
-    imagePath: '/project_brand.png',
+    imagePath: '/project_brand.jpg',
     title: 'Solução para acompanhamento de marca em Redes Sociais',
     description:
       'Desafios: Criação de Web Crawler e Scraper, orquestração de serviços por mensageria, reconhecimento de marca textual por padrões e lógicas flexíveis, reconhecimento devisual por Visão Computacional, consolidação, estruturação e indexação dos dados deorigem (Google Search, Facebook e Twitter), modelagem e disponibilização de base dedados analítica, geração de dashboards com agregadores de negócio.',
@@ -164,19 +164,19 @@ export default function Projects() {
       </div>
       <>
         {jobProjects.map((project, index) => (
-          <a
+          <div
             key={index}
-            href={project.link}
-            target="projects"
-            className="hover:cursor-pointer"
+            //href={project.link}
+            //target="projects"
+            //className="hover:cursor-pointer"
           >
             <Card className="group lg:p-6 mb-8 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200">
               <CardHeader className="h-full w-full lg:w-1/3 mb-4 p-0">
                 <Image
                   src={project.imagePath}
                   alt={`Screenshot of ${project.title}`}
-                  width={1920}
-                  height={1080}
+                  width={640}
+                  height={480}
                   priority
                   className="bg-[#141414] mt-2 border border-muted-foreground rounded-[0.5rem]"
                 />
@@ -184,7 +184,7 @@ export default function Projects() {
               <CardContent className="flex flex-col p-0 w-full lg:w-2/3">
                 <p className="text-primary font-bold">
                   {project.title}{' '}
-                  <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
+                  {/* <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" /> */}
                 </p>
                 <CardDescription className="py-3 text-muted-foreground">
                   {project.description}
@@ -196,7 +196,7 @@ export default function Projects() {
                 </CardFooter>
               </CardContent>
             </Card>
-          </a>
+          </div>
         ))}
       </>
     </section>
