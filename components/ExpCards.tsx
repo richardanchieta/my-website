@@ -14,8 +14,30 @@ import { faDownload, faFile} from '@fortawesome/free-solid-svg-icons'
 
 const jobPositions = [
   {
-    timeline: 'Jul 2023 — o momento',
-    currentPosition: 'Arquiteto e Desenvolvedor',
+    timeline: 'Jul 2023 — Ago 2024',
+    currentPosition: 'CTO e Arquiteto',
+    place: `ForesToken`,
+    previousPositions: [''],
+    description:
+      "[em preparação]",
+    skills: [
+      'Agentes de IA',
+      'LLM',
+      'RAG',
+      'LangChain',
+      'VectorDB',
+      'GCP',
+      'GO',
+      'Angular',
+      'Microsserviços',
+      'Mensageria',
+      'PostgreSQL',
+      'Blockchain'
+    ],
+  },
+  {
+    timeline: 'Jul 2023 — Ago 2024',
+    currentPosition: 'Arquiteto e Consultor de TI',
     place: `Fatora\u00A0Tecnologia`,
     previousPositions: [''],
     description:
@@ -32,7 +54,7 @@ const jobPositions = [
   },
   {
     timeline: 'Jan 2023 — Out 2023',
-    currentPosition: 'Arquiteto e Desenvolvedor',
+    currentPosition: 'CTO e Arquiteto',
     place: 'Tera.Biz',
     previousPositions: [],
     description:
@@ -41,7 +63,7 @@ const jobPositions = [
   },
   {
     timeline: 'Fev 2021 — Dez 2022',
-    currentPosition: 'Arquiteto e Desenvolvedor',
+    currentPosition: 'CTO e Arquiteto',
     place: 'Stemativa',
     previousPositions: [],
     description:
@@ -129,7 +151,7 @@ export default function ExpCard() {
       <div className="lg:px-6 mt-12">
         <a
           className="inline-flex items-center font-medium leading-tight text-foreground group"
-          href="/richard_anchieta_cv_site_2024.pdf"
+          href="/richard_anchieta_cv_site_2025.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >

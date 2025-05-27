@@ -61,18 +61,13 @@ export default function Nav() {
           Richard Anchieta
         </h1>
         <h2 className="text-xl lg:text-start">
-          Arquiteto&nbsp;de&nbsp;Soluções |
-          Desenvolvedor&nbsp;Sênior&nbsp;Full&nbsp;Stack
+          CTO | Arquiteto&nbsp;de&nbsp;Soluções
         </h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-          Sou um Arquiteto de Soluções com uma abordagem &quot;mão na massa&quot; e forte
-          background em desenvolvimento de software.
+          Sou CTO e arquiteto de soluções com uma abordagem prática e estratégica.
         </p>
         <p className="text-lg lg:text-start text-muted-foreground">
-          Minha experiência combina a visão estratégica necessária para criar
-          arquiteturas robustas com a habilidade prática de implementar essas
-          soluções, garantindo que elas atendam às necessidades de negócio e
-          superem os desafios técnicos.
+          Atuo como ponte entre a visão de negócio e a execução técnica, liderando iniciativas complexas que exigem tanto pensamento sistêmico quanto domínio de código.
         </p>
       </div>
       <nav className="lg:flex hidden">
@@ -113,7 +108,7 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
           <a
-            href="https://wa.me/5511917294519?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20seu%20site%20pessoal."
+            href="https://wa.me/5511966037045?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20seu%20site%20pessoal."
             target="_blank"
             rel="noopener noreferrer"
           >
